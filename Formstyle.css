@@ -8,6 +8,12 @@ div {
   background-color: white;
 }
 
+div.myform {
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
 .fields {
   width: 100%;
   border: groove 1px;

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaginaForm</title>
     <link rel="stylesheet" href="Formstyle.css">
+    <script src="formValidation.js"></script>
+
 </head>
 <body>
     <form method="post" action="check_form.php">
@@ -15,7 +17,7 @@
             <h4>Complete the below form to get instant access.</h2>
             <div><label for="company_name"></label><input class="fields" type="text" id="company_name" name="company_name" placeholder="Company name"></div>
             <div><label for="full_name"></label><input class="fields" type="text" id="full_name" name="full_name" placeholder="Full name"></div>
-            <div><label for="email"></label><input class="fields" type="email" id="email" inputmode="email" name="email"  placeholder="Email"></div>
+            <div><label for="email"></label><input class="fields" type="text" id="email" inputmode="email" name="email"  placeholder="Email"></div>
             <div><label for="phone"></label><input class="fields" type="tel" id="phone" name="phone"  placeholder="Phone"></div>
             <div><select class="fields" name="choose_service">
                 <option value="choose_service">Choose service...</option>
@@ -27,7 +29,7 @@
             
     <footer>
         <br>
-        <input class="button" type="submit" value="Send request"> <br>
+        <input class="button" type="submit" value="Send request" disabled> <br>
     </footer>
     </fieldset>
     </form>
